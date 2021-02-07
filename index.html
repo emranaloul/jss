@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Page</title>
+</head>
+<body>
+    <script>
+        alert('we are going to ask you about you name, weight and height')
+
+        var x = prompt('what is your name');
+        var y = prompt('what is your weight');
+        var z = prompt("what is your height");
+        document.write(`hey ${x}, your weight is ${y} and your height is ${z}`);
+    </script>
+
+    <script>
+        if (z - y >= 110){
+            console.log('below normal');
+        }
+        else if (z - y < 110 && z - y > 90){
+            console.log('normal');
+        }
+        else {
+            console.log('above normal');
+        }
+        
+    </script>
+    
+</body>
+</html>
